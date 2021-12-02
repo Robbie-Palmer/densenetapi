@@ -17,3 +17,11 @@ Recommended installation:
 ## Deployment
 
 - Run `uvicorn densenetapi:app`
+
+## Sources
+
+- https://fastapi.tiangolo.com/
+- https://pytorch.org/hub/pytorch_vision_densenet/
+- https://stackoverflow.com/questions/26070547/decoding-base64-from-post-to-use-in-pil
+- https://stackoverflow.com/questions/606191/convert-bytes-to-a-string
+- https://stackoverflow.com/questions/48229318/how-to-convert-image-pil-into-base64-without-saving

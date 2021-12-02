@@ -1,3 +1,6 @@
+import base64
+from io import BytesIO
+
 import requests
 import torch
 from PIL import Image
@@ -5,8 +8,6 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from torchvision import transforms
-from io import BytesIO
-import base64
 
 
 class ImagePayload(BaseModel):

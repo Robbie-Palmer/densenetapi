@@ -1,12 +1,12 @@
+import base64
 import urllib
+from io import BytesIO
 
 from PIL import Image
 from fastapi.testclient import TestClient
 from pytest import fixture
 
 from densenetapi import app
-from io import BytesIO
-import base64
 
 
 @fixture
