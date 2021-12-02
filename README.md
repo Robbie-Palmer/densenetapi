@@ -8,6 +8,7 @@ Recommended installation:
 
 - Install [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 - Create a new python environment `create -n densenetapi python=3.9`
+- Install the requirements `pip install -r requirements.txt`
 
 ## Tests
 
